@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Rotobo", sans-serif;
+  line-height: 1;
+  color: #202758;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  padding: 0 4rem;
+  background: linear-gradient(136deg, rgba(0, 0, 0, 0.078), rgba(0, 0, 0, 0.259)), url(../images/banner.jpg) no-repeat center center/cover;
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  background-color: rgba(201, 112, 29, 0.03);
+  position: fixed;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.wrapper.active {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  background-color: #333333;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  padding: 0 6rem;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper:hover {
+  background-color: rgba(40, 39, 39, 0.763);
+  transition: 0.5s ease;
+}
+
+.logo {
+  cursor: pointer;
+  display: block;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.navbar ul li a:hover {
+  color: rgb(253, 127, 16);
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgba(0, 110, 255, 0.926);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+  max-width: 500px;
+  font-size: 20px;
+}
+
+.id {
+  padding: 25px;
+  line-height: 1.2;
+}
+
+.about {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-font {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.content_abouts {
+  width: 50%;
+}
+
+.content-about {
+  display: flex;
+  padding: 0 6rem 1.5rem 0;
+  width: 70%;
+}
+
+.content-about h2 {
+  line-height: 1.5;
+  font-size: 32px;
+  color: #202758;
+}
+
+.contents {
+  width: 72%;
+}
+
+.contents ul {
+  line-height: 3;
+}
+
+.contents p {
+  line-height: 2;
+}
+
+.icon-font {
+  width: 50%;
+  display: flex;
+  padding: 6rem;
+}
+
+.image-font {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.contents-item {
+  padding-top: 1.5rem;
+}
+
+.services {
+  width: 100%;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=app.css.map */
